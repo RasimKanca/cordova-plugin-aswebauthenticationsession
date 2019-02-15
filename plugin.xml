@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-sfauthenticationsession"
+        version="1.0.5">
+    <name>SFAuthenticationSession</name>
+    <description>Cordova Plugin for iOS 12 ASWebAuthenticationSession API</description>
+    <license>MIT</license>
+    <keywords>ASWebAuthenticationSession,iOS 12,iOS,oAuth,Single Sign on,Privacy</keywords>
+    <repo>https://github.com/mochini/cordova-plugin-aswebauthenticationsession.git</repo>
+    <issue>https://github.com/mochini/cordova-plugin-aswebauthenticationsession/issues</issue>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/ASWebAuthenticationSession.js" name="ASWebAuthenticationSession">
+            <runs/>
+            <clobbers target="ASWebAuthenticationSession" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="ASWebAuthenticationSession">
+                <param name="ios-package" value="ASWebAuthenticationSession" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/ASWebAuthenticationSession.h" />
+        <source-file src="src/ios/ASWebAuthenticationSession.m" />
+    </platform>
+</plugin>
