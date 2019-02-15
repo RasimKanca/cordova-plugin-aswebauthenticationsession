@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface ASWebAuthenticationSession : CDVPlugin {
+@interface ASWebAuthSession : CDVPlugin {
 }
 
 // The hooks for our plugin commands

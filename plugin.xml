@@ -12,17 +12,17 @@
 
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/ASWebAuthenticationSession.js" name="ASWebAuthenticationSession">
+        <js-module src="www/ASWebAuthSession.js" name="ASWebAuthSession">
             <runs/>
-            <clobbers target="ASWebAuthenticationSession" />
+            <clobbers target="ASWebAuthSession" />
         </js-module>
         <config-file target="config.xml" parent="/*">
-            <feature name="ASWebAuthenticationSession">
-                <param name="ios-package" value="ASWebAuthenticationSession" />
+            <feature name="ASWebAuthSession">
+                <param name="ios-package" value="ASWebAuthSession" />
             </feature>
         </config-file>
 
-        <header-file src="src/ios/ASWebAuthenticationSession.h" />
-        <source-file src="src/ios/ASWebAuthenticationSession.m" />
+        <header-file src="src/ios/ASWebAuthSession.h" />
+        <source-file src="src/ios/ASWebAuthSession.m" />
     </platform>
 </plugin>

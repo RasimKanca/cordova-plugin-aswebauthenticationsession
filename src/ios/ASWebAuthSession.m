@@ -1,5 +1,5 @@
 #import <Availability.h>
-#import "ASWebAuthenticationSession.h"
+#import "ASWebAuthSession.h"
 
 #import <AuthenticationServices/ASWebAuthenticationSession.h>
 
@@ -8,7 +8,7 @@
 ASWebAuthenticationSession *_authenticationVC;
 
 
-@implementation ASWebAuthenticationSession;
+@implementation ASWebAuthSession;
 
 - (void)pluginInitialize {
 }

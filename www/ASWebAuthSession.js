@@ -1,12 +1,12 @@
 
 var exec = require('cordova/exec');
 
-var PLUGIN_NAME = 'ASWebAuthenticationSession';
+var PLUGIN_NAME = 'ASWebAuthSession';
 
-var ASWebAuthenticationSession = {
+var ASWebAuthSession = {
   start: function(redirectScheme, requestURL, cb, errorCb) {
     exec(cb, errorCb, PLUGIN_NAME, 'start', [redirectScheme, requestURL]);
   }
 };
 
-module.exports = ASWebAuthenticationSession;
+module.exports = ASWebAuthSession;
