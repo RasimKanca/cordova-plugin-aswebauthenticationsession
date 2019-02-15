@@ -1,7 +1,7 @@
 #import <Availability.h>
 #import "ASWebAuthenticationSession.h"
 
-#import <SafariServices/ASWebAuthenticationSession.h>
+#import <AuthenticationServices/ASWebAuthenticationSession.h>
 
 #import <Cordova/CDVAvailability.h>
 
