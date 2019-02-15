@@ -1,5 +1,5 @@
 #import <Availability.h>
-#import "SFAuthSession.h"
+#import "ASWebAuthenticationSession.h"
 
 #import <SafariServices/ASWebAuthenticationSession.h>
 
@@ -8,7 +8,7 @@
 ASWebAuthenticationSession *_authenticationVC;
 
 
-@implementation SFAuthSession;
+@implementation ASWebAuthenticationSession;
 
 - (void)pluginInitialize {
 }

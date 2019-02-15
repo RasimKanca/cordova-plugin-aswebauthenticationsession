@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-aswebauthenticationsession"
-        version="1.0.4">
+        version="1.0.5">
     <name>ASWebAuthenticationSession</name>
     <description>Cordova Plugin for iOS 12 ASWebAuthenticationSession API</description>
     <license>MIT</license>
