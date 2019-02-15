@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-aswebauthenticationsession",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cordova Plugin for iOS 12 ASWebAuthenticationSession API",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,5 @@
     "platforms": [
       "ios"
     ]
-  },
+  }
 }

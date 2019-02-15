@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-sfauthenticationsession"
-        version="1.0.5">
-    <name>SFAuthenticationSession</name>
+        id="cordova-plugin-aswebauthenticationsession"
+        version="1.0.2">
+    <name>ASWebAuthenticationSession</name>
     <description>Cordova Plugin for iOS 12 ASWebAuthenticationSession API</description>
     <license>MIT</license>
     <keywords>ASWebAuthenticationSession,iOS 12,iOS,oAuth,Single Sign on,Privacy</keywords>
