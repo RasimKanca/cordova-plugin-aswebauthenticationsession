@@ -9,4 +9,4 @@ var ASWebAuthenticationSession = {
   }
 };
 
-module.exports = SFAuthSession;
+module.exports = ASWebAuthenticationSession;
